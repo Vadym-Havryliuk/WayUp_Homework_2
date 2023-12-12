@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FDFCEF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+p {
+    font-weight: 500;
+    line-height: 1.367em;
+    font-size: 18px;
+    margin: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+header, section, footer {
+    padding-bottom: 120px;
+}
+
+header {
+    margin-top: 60px;
+}
+
+.logo {
+    margin-bottom: 82px;
+}
+
+.wrapper-offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer {
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.heading-offer {
+    font-size: 50px;
+}
+
+.text-offer {
+    width: 423px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    padding: 22px 70px;
+    font-weight: 700;
+    border-radius: 100px;
+    background: #FF6861;
+    width: 227px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #000;
+    color: red;
+}
+
+.heading-features {
+    margin-bottom: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.wrapper-features {
+    width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.features-item {
+    display: flex;
+    align-items: center;
+}
+
+.item-img {
+    margin-right: 34px;
+}
+
+.about-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.title-feature {
+    font-size: 30px;
+}
+
+.description-wrapper {
+    border-radius: 60px;
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    padding: 76px 125px 75px 122px;
+    display: flex;
+}
+
+.wrap-description {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 101px;
+}
+
+.heading-description {
+    font-size: 40px;
+}
+
+.text-footer {
+    font-size: 15px;
+    text-align: center;
+}
